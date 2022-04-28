@@ -1,0 +1,60 @@
+.background{
+    background-image: url('https://cdn1.edgedatg.com/aws/v2/natgeotv/Mars/showimages/a07a09aa9b0a2ff2b8416d3c9f3ef50a/1600x900-Q90_a07a09aa9b0a2ff2b8416d3c9f3ef50a.jpg')
+}
+
+h1{
+    color: black;
+}
+
+.carousel-inner img {
+    margin: auto;
+  }
+
+#facts{
+    color: rgb(255, 251, 0);
+    font-weight: bolder;
+    mix-blend-mode: difference;
+}
+
+.nav{
+
+    padding-bottom: 10px;
+}
+
+#move {
+    display: flex;
+    align-items: center;
+}
+
+.carousel-control-previous{
+    margin-top:50px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }

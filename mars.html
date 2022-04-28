@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars</title>
+    <link rel="stylesheet" href="mars.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script defer src="mars.js"></script>
+</head>
+
+<body class="background" id="body">
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand">
+            <img width='50px'
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.nasa.gov/">NASA</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        <div style="height : 50px;"></div>
+        <h1 id="marstitle" style="text-align: center;">Welcome to Mars</h1>
+        <div style="height : 75px;"></div>
+        <h2 id="marspicsheader" style="text-align: center;">Click through the pictures to look at the many views of Mars
+        </h2>
+        <div style="height : 75px;"></div>
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+            </ol>
+            <div id="thisone" class="carousel-inner">
+                <div id="leftbtn">
+                    <a class="carousel-control-prev" role="button" data-slide="prev" id="move">
+                        <span class="carousel-control-prev-icon" class="last" aria-hidden="true"></span>
+                        <span class="sr-only" id="last" class="last">Previous</span>
+                    </a>
+                </div>
+                <a class="carousel-control-next" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" class="next" aria-hidden="true"></span>
+                    <span class="sr-only" id="next" class="next">Next</span>
+                </a>
+            </div>
+        </div>
+            <div>
+                <div style="height:70px;"></div>
+                <h2 style="text-align:center;">Facts About Mars</h2>
+                <div style="height:50px;"></div>
+                <ul id="facts">
+                    <li>Mars is also known as the Red Planet. This is because Mars is covered in soil, rock, and dust
+                        made from iron oxide which gives the surface a red rusty colour.</li>
+                        <div style="height:20px;"></div>
+                    <li>Mars is named after the Roman god of war.</li>
+                    <div style="height:20px;"></div>
+                    <li>Mars has 2 moons called Deimos and Phobos. They are named after the two horses that pull the
+                        Roman god of war, Mars’, chariot. They may be asteroids captured by Mars’ gravity.</li>
+                        <div style="height:20px;"></div>
+                    <li>Mars is the 4th planet from the sun. It is 227,936,637 km (141 million miles) away from the sun.
+                        It would take 300 days (around 8 months) to get there from Earth.</li>
+                        <div style="height:20px;"></div>
+                    <li>Mars is smaller than Earth with a diameter of 4217 miles. This makes it the second smallest
+                        planet in our solar system.</li>
+                        <div style="height:20px;"></div>
+                    <li>A day on Mars lasts 24 hours and 37 minutes.</li>
+                    <div style="height:20px;"></div>
+                    <li>One year on Mars is 687 days long. That’s 1.9 Earth years. This is because Mars is further away
+                        from the sun so it takes longer to orbit it.</li>
+                        <div style="height:20px;"></div>
+                    <li>The tilt on the axis of Mars is 25 degrees which means that the planet experiences seasons like
+                        we do on Earth as different parts of the planet are closer to the sun at different times of its
+                        orbit.</li>
+                        <div style="height:20px;"></div>
+                    <li>Mars has a thin atmosphere made from 95.9% carbon dioxide and 2.7% nitrogen. The atmosphere is
+                        so thin that it’s not thick enough to trap the sun’s heat so it is very cold - ranging from
+                        -100℃ in winter to 20℃ in summer.</li>
+                        <div style="height:20px;"></div>
+                    <li>Mars has very weak gravity. Gravity on Mars is 37% less than on Earth. This means that on Mars
+                        you could jump 3x higher than on Earth.</li>
+                        <div style="height:20px;"></div>
+                    <li>Mars is a terrestrial planet because it has a hard and rocky surface. Its northern side is full
+                        of flat plains and the southern side has ridges and craters.</li>
+                        <div style="height:20px;"></div>
+                    <li>Mars’ surface has many channels, plains, and canyons which could have been caused by water
+                        erosion (water wearing away the surface). This could be evidence that open water in liquid form
+                        once existed on the surface billions of years ago.</li>
+                        <div style="height:20px;"></div>
+                    <li>Mars experiences violent dust storms powered by the sun which can last for months. The dust
+                        storms can completely cover the planet and continually change Mars’ surface.</li>
+                        <div style="height:20px;"></div>
+                    <li>Mars is home to Olympus Mons, a dormant volcano and the largest volcano and highest mountain in
+                        our solar system. It is 16 miles high and 600 km across the base, making it 3x the height of
+                        Mount Everest.</li>
+                        <div style="height:20px;"></div>
+                    <li>The biggest crater on Mars is Borealis Basin. It is 5300 miles from end to end and covers 40% of
+                        planet’s surface.</li>
+                        <div style="height:20px;"></div>
+                    <li>Mars has the largest canyon in our solar system, Valles Marineris. It is 4 miles deep and
+                        stretches thousands of miles long.</li>
+                        <div style="height:20px;"></div>
+                    <li>Mars has north and south poles like earth. The polar ice caps are covered in a layer of frozen
+                        carbon dioxide (dry ice).</li>
+                        <div style="height:20px;"></div>
+                    <li>As it’s so close to Earth, Mars is the planet that humans will most likely step foot on and
+                        explore first.</li>
+                        <div style="height:20px;"></div>
+                    <li>We sent out Mars Rovers (which are like robots) on missions to explore Mars and collect samples
+                        and record scientific data for scientists on Earth to study. Some of these Rovers include Viking
+                        1, Viking 2, Mars 2, Mars 3, Spirit, Phoenix, Pathfinder, Curiosity, and Opportunity.</li>
+                        <div style="height:20px;"></div>
+                    <li>There is no evidence of life on Mars. However, it is the planet with the best conditions to
+                        support life and scientists believe there is potential for life under the surface of mars
+                        because they recently found water ice just under the surface.</li>
+                </ul>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
