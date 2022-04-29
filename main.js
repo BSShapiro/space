@@ -68,7 +68,7 @@ function handleSearch(data){
         const pic = document.createElement('img');
         pic.src = picArr[i];
         pic.style.width = '33.33%';
-        pic.style.height = '30vh';
+        pic.style.height = '33.33%';
         pic.classList.add('rounded-circle');
         picDivInner.append(pic);
     }
